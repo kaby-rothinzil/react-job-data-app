@@ -93,7 +93,7 @@ Note: Alternatively, a `run.sh` script has been included.
 
 ## AWS Configuration
 
-Ensure your AWS credentials have the following permissions:
+The application uses the following permissions:
 - S3: Read and write access to the specified bucket
 - Redshift:
     - Create, read, update, and delete tables
