@@ -1,0 +1,58 @@
+react-job-data-app/
+├── .env                       # Environment variables with AWS credentials
+├── .gitignore                 # Git ignore file
+├── .python-version            # Python version file (3.10.13)
+├── backend/
+│   ├── app.py                 # FastAPI backend application
+│   ├── backend.log            # Backend server log
+│   └── requirements.txt       # Backend Python dependencies
+├── frontend/
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html         # HTML template
+│   │   ├── logo192.png
+│   │   └── manifest.json      # PWA manifest
+│   ├── src/
+│   │   ├── App.js             # Main React application component
+│   │   ├── components/
+│   │   │   ├── DataCanvas/
+│   │   │   │   ├── ColumnEditor.js           # Column configuration component
+│   │   │   │   ├── DataCanvasComponent.js    # Main DataCanvas component
+│   │   │   │   ├── DataPreview.js            # Data preview component
+│   │   │   │   ├── DataVisualizer.js         # Data visualization component
+│   │   │   │   ├── EnhancedResultsView.js    # Enhanced results visualization
+│   │   │   │   ├── JobHistoryComponent.js    # SageMaker job history
+│   │   │   │   ├── ModelParametersForm.js    # Model parameters configuration
+│   │   │   │   ├── ModelSelector.js          # Model selection component
+│   │   │   │   ├── TimeBasedDataQuestion.js  # Data type selector
+│   │   │   │   └── index.js                  # Entry point for DataCanvas
+│   │   │   ├── DataEditor/
+│   │   │   │   └── DataEditorComponent.js    # Data editing component
+│   │   │   ├── DataMapper/
+│   │   │   │   ├── CombinedTable.js          # Combined data table
+│   │   │   │   ├── DataMapperPage.js         # Data mapping page
+│   │   │   │   ├── DataTable.js              # Data table component
+│   │   │   │   ├── DataTableContainer.js     # Container for data tables
+│   │   │   │   ├── SelectedItems.js          # Selected items component
+│   │   │   │   └── TableDropdown.js          # Table selection dropdown
+│   │   │   ├── DataUploader/
+│   │   │   │   └── DataUploaderComponent.js  # Data upload component
+│   │   │   ├── DataWriter/
+│   │   │   │   └── DataWriterComponent.js    # Data write component
+│   │   │   ├── ErrorBoundary.js              # Error handling component
+│   │   │   ├── LoadingSpinner.js             # Loading spinner component
+│   │   │   ├── ModelResults.js               # Model results visualization
+│   │   │   ├── Settings/
+│   │   │   │   └── SettingsPage.js           # Settings page component
+│   │   │   ├── SnippetWriter/
+│   │   │   │   └── SnippetWriterComponent.js # Code snippet generator
+│   │   │   └── layout/
+│   │   │       ├── Layout.js                 # Main layout component
+│   │   │       └── Sidebar.js                # Sidebar navigation
+│   │   ├── index.css                         # Global CSS with Tailwind imports
+│   │   └── index.js                          # React entry point
+│   ├── package.json                          # Frontend dependencies
+│   ├── postcss.config.js                     # PostCSS configuration
+│   └── tailwind.config.js                    # Tailwind CSS configuration
+├── run.sh                                    # Startup script
+└── venv/                                     # Python virtual environment (not included)

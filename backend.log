@@ -1,0 +1,47 @@
+INFO:     Will watch for changes in these directories: ['/home/boris/fleet/react-job-data-app/backend']
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [15979] using StatReload
+INFO:     Started server process [15982]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55026 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "GET /api/tables HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "GET /api/tables HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55042 - "POST /api/sagemaker/create-autopilot-job HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41118 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40182 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40194 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56582 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56588 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34204 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34220 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40530 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40542 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50300 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50302 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56458 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56460 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34274 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34288 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53614 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45814 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42202 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42210 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56738 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56744 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50296 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50298 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45362 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45370 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50614 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50628 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59174 - "GET /api/sagemaker/list-jobs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59174 - "GET /api/sagemaker/job-status?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+WARNING:app:Explanation file not found for job automl-job-1744338137874
+WARNING:app:Error downloading predictions: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     127.0.0.1:59174 - "GET /api/sagemaker/job-results?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59188 - "GET /api/sagemaker/job-details?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
+WARNING:app:Explanation file not found for job automl-job-1744338137874
+WARNING:app:Error downloading predictions: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     127.0.0.1:59188 - "GET /api/sagemaker/job-results?job_name=automl-job-1744338137874 HTTP/1.1" 200 OK
